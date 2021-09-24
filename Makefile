@@ -3,7 +3,7 @@ ARCH ?= $(shell go env GOARCH)
 
 IMAGE_NAME := cert-manager-webhook-namecheap
 IMAGE_TAG := "latest"
-REPO_NAME := jgoodhouse
+REPO_NAME := testeddoughnut
 
 OUT := $(shell pwd)/_out
 
